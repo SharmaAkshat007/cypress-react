@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "cypress-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,8 @@
     "@types/react-dom": "^18.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router": "^6.14.1",
+    "react-router-dom": "^6.14.1",
     "react-scripts": "5.0.1",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
@@ -20,6 +22,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:e2e": "cypress open",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cypress": "^12.17.1"
   }
 }
